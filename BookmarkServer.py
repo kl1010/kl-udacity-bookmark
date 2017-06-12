@@ -7,7 +7,7 @@ import requests
 from urllib.parse import unquote, parse_qs
 import os
 import threading
-from socketserver import ThreadMixIn
+from socketserver import ThreadingMixIn
 
 memory = {}
 
